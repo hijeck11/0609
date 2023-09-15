@@ -1,7 +1,7 @@
-# str = input('введите много символов: ')
-# a = str[1::2]
-# #print('введеная строка', str.strip(' '))
-# print('введеная строка', a, b, sep ='     ', end ='\n!!!')
+str = input('введите много символов: ')
+a = str[1::2]
+#print('введеная строка', str.strip(' '))
+print('введеная строка', a, b, sep ='     ', end ='\n!!!')
 #
 #
 # name = "Pavel"
@@ -82,5 +82,5 @@
 #
 # func()
 
-random_list = [i for i in range(1,15)]
-print(random_list)
+# random_list = [i for i in range(1,15)]
+# print(random_list)
