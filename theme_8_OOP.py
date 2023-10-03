@@ -54,3 +54,25 @@ vaz = car(200)
 lada = car(170)
 vaz.move()
 lada.move()
+
+"""
+№3 Для рассмотренного на уроке класса Circle реализовать метод производящий вычитание двух
+ окружностей, вычитание радиусов произвести по модулю. Если вычитаюстя две окружности с 
+ одинаковым значением радиуса, то результатом вычитания будет точка калсса Point.
+"""
+
+class Circle:
+    def __init__(self, r1, r2):
+        self.r1 = r1
+        self.r2 = r2
+
+    def circle_area(self):
+        module_r = abs(self.r1 - self.r2)
+        area = 3.14 * module_r**2
+        if area == 0:
+            print('Окружности равны')
+        else:
+            print('Разница площадей:', area)
+
+a = Circle(10, 5)
+a.circle_area()
